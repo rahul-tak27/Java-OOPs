@@ -25,5 +25,16 @@ public class App {
         System.out.println(s1.age);
 
         s1.bunk();
+
+        // 3. Copy constructor 
+
+        Student s2 = new Student(s1);
+
+        System.out.println(s2.name);
+        System.out.println(s2.age);
+        System.out.println(s2.id);
+        System.out.println(s2.nos);
+
+        s2.sleep();
     }
 }

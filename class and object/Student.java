@@ -26,6 +26,15 @@ public class Student {
         this.nos = nos;
     }
 
+    // 3. Copy Constructor 
+    // copy construcor is take object as an parameter s-> datatype -> object
+
+    Student(Student s){
+        this.id = s.id;
+        this.age = s.age;
+        this.name = s.name;
+        this.nos = s.nos;
+    }
 
 
     // methods/behaviours
