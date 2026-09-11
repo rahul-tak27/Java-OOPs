@@ -11,7 +11,7 @@ public class App {
         Circle ci = new Circle();
         ci.draw();
 
-        // Upcasting 
+        // Upcasting
 
         Shape sh = new Circle();
         doDraw(sh);
@@ -20,7 +20,7 @@ public class App {
 
     // upcasting
 
-    public static  void doDraw(Shape s){
+    public static void doDraw(Shape s) {
         s.draw();
     }
 
